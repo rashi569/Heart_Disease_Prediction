@@ -57,7 +57,7 @@ sex (1 = male; 0 = female)
 Most of the chest pain causes are not dangerous to health, but some are serious, while the least cases are life-threatening.[TA: typical angina(1), ATA: Atypical angina(2), NAP: non-anginal pain(3), ASY: asymptomatic (4) ]
 
 4.RESTING BLOOD PRESSURE:
-blood pressure tells a lot about your general health. High blood pressure or hypertension can lead to several heart related issues and other medical conditions. Uncontrolled high blood pressure can lead to stroke.
+Blood pressure tells a lot about your general health. High blood pressure or hypertension can lead to several heart related issues and other medical conditions. Uncontrolled high blood pressure can lead to stroke.
 
 5.SERUM CHOLESTEROL:
 A person’s serum cholesterol level represents the amount of total cholesterol in their blood. A person’s serum cholesterol level comprises the amount of high-density lipoprotein (HDL), low-density lipoprotein (LDL), and triglycerides in the blood. Triglycerides are a type of fat bundled with cholesterol.
@@ -120,49 +120,49 @@ A blood disorder called thalassemia,[normal, reversible defect, fixed defect]
     import matplotlib.pyplot as plt
     %matplotlib inline
     import seaborn as sns
+    
 ## EDA Observations:
--IMPACT OF SOP TO HEART DISEASE:
+-IMPACT OF SLOPE OF PEAK TO HEART DISEASE:
 
-  In this table clearly seen the slope of peak st segment is upsloping the chance of heart disease is less than other.
-    If slop pf peak is flat the chance of heart disease in more than upsloping
-    downslope st segment patient is also chance to get heart diseaase
-    with the follwing observation we can say that slope of peak st segment is fullt impact to heart disease
+   If slope of peak is flat the chance of heart disease is more than upsloping.
+    Downslope st segment patient is also chance to get heart diseaase
+    With the follwing observation we can say that slope of peak st segment has major impact on heart disease.
 
 -IMPACT OF THAL TO HEART DISEASE:
 
-  Normal blood disorder patient has less chance of heart disease than other thal
-    reversible defect blood disorder has more chance of heart disease and fixed defect blood disorder has 50-50 chance of heart disease
+  Normal blood disorder patient has less chance of heart disease than other thal.
+  Reversible defect blood disorder has more chance of heart disease and fixed defect blood disorder has 50-50 chance of heart disease.
 
 -IMPACT OF CPT TO HEART DISEASE:
 
-  if the patient have asymtomatic(4) chest paint the chance of heart disease is more high
-    non-anginal pain(3),typical angina(1), Atypical angina(2) chest pain has less chances of heart disease.
-    but all chest pain types are impacted to heart disease.
+  If the patient have asymtomatic(4) chest paint the chance of heart disease is more high.
+    Non-anginal pain(3),typical angina(1), Atypical angina(2) chest pain have less chances of heart disease.
+    But all chest pain types are impacting heart disease.
 
 -IMPACT OF FASTING BLOOD SUGAR TO HEART DISEASE:
 
   If fasting blood suagar is less than 120mg/dl the chance of heart disease is high.
-    fasting blood sugar is greter than 120mg/dl the chace of heart disease is slightly less.
+    If fasting blood sugar is greter than 120mg/dl the chace of heart disease is slightly less.
 
 -IMPACT OF SEX TO HEART DISEASE:
 
-  Male patient has more chance of heart disease than female
+  Male patient has more chance of heart disease than female.
 
 -IMPACT OF MAJOR VESSELS TO HEART DISEASE:
 
-  If the major vessels is zero the chance of heart disease is less but zero major vessels are also chance of heart disease
-    1,2, and 3 major vessels are more(high) chance of heart disease
+  If the major vessels is zero the chance of heart disease is less but zero major vessels are also chance of heart disease.
+    1,2, and 3 major vessels have more high chances of heart disease.
 
 -IMPACT OF EKG RESULT TO HEART DISEASE:
 
   If the ekg/ecg result is normal(0) the chance of heart disease is less.
-    If ekg/ecg result is 1 the 100% patient has heart disease
-    2 ekg/ecg result is 50-50% chance of heart disease
+    If ekg/ecg result is 1 the 100% patient has heart disease,
+    2 ekg/ecg result is 50-50% chance of heart disease.
 
 -IMPACT OF EXERCISE INDUCED ANGINA:
 
-  If the patient has no chest pain the chance of heart disease is less
-    If patient has chest pain the chance of heart disease is more
+  If the patient has no chest pain the chance of heart disease is less.
+    If patient has chest pain the chance of heart disease is more.
 
 ## Split Features and Target set
 
